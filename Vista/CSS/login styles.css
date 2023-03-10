@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Vista\Imagenes\verde.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.options {
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: left;
+    font-style: italic;
+}
+
+.select {
+    font-size: medium;
+    padding: 5px;
+    margin: 20px 10px;
+    background-color: rgb(12, 192, 69);
+    border-spacing: 10%;
+}
+
+.form-login {
+    width: 400px;
+    height: 320px;
+    background-color: rgb(86, 109, 107);
+    margin: 100px 540px;
+    padding: 20px;
+    box-shadow: 7px 13px 37px rgb(0, 0, 0);
+    border-top: 7px solid rgb(5, 253, 121);
+    color: rgb(19, 219, 109);
+    border: 1px solid black;
+    text-decoration: underline;
+}
+
+.form-login h4 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+header .navegacion {
+    width: 100px;
+    height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size-adjust: 100px;
+}
+
+.menu {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 20px;
+    font-display: 10px 1px;
+}
+
+.main-menu {
+    height: 90%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: solid;
+    display: inline-block;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid rgb(6, 101, 12);
+    padding: 11px 10px;
+    background: #d1d1d6;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttons {
+    width: 100%;
+    height: 40px;
+    background: #000000;
+    border: none;
+    color: rgb(38, 209, 7);
+    margin-bottom: 16px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-login p {
+    height: 40%;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.form-login a {
+    color: rgb(12, 226, 80);
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.form-login a:hover {
+    color: #403d3d;
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    color: aliceblue;
+    padding: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.forget {
+    display: flex;
+    justify-content: space-evenly;
+}
